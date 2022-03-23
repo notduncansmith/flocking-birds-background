@@ -34,7 +34,7 @@ export const drawBoid = (
   spriteToDraw: Path2D
 ) => {
   // Draw debug boids as green
-  ctx.fillStyle = boid.debug ? `#00ff00` : `#1C3E5C`;
+  ctx.fillStyle = boid.debug ? `#00ff00` : `#FFFFFFF0`;
   ctx.translate(boid.position.x, boid.position.y);
   ctx.scale(0.2, 0.2);
   ctx.rotate(-1 * boid.velocity.getAngleFromPosX() + Math.PI / 2);
