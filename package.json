@@ -20,12 +20,11 @@
     "react-dom": "^16.13.1"
   },
   "scripts": {
-    "build": "rollup -c",
-    "postinstall": "rollup -c"
+    "build": "rollup -c"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CasulOrnstein/flocking-birds-background.git"
+    "url": "git+https://github.com/notduncansmith/flocking-birds-background.git"
   },
   "keywords": [
     "react",
