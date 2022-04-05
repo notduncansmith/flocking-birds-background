@@ -1,5 +1,3 @@
-import "path2d-polyfill";
-
 if (typeof Path2D === "undefined") {
   (Path2D as any) = () => {};
 }
